@@ -2616,14 +2616,16 @@
 	}
 
 		.wrapper > .inner {
-			width: 60em;
+            width: 100%;
+            height: 35em
 			margin: 0 auto;
 		}
 
 			@media screen and (max-width: 1280px) {
 
 				.wrapper > .inner {
-					width: 90%;
+					width: 100%;
+                    height: 35em;
 				}
 
 			}
@@ -2632,6 +2634,8 @@
 
 				.wrapper > .inner {
 					width: 100%;
+                    height: 35em;
+                    display: inline-block;
 				}
 
 			}
@@ -3113,7 +3117,7 @@
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				padding: 4em 3em 2em 3em ;
+				padding: 1em 3em 2em 3em ;
 			}
 
 		}
@@ -3812,3 +3816,58 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+    #modal {
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 99999;
+        height: 100%;
+        width: 100%;
+    }
+    .modalconent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #244777;
+        width: 80%;
+        height: 13em;
+        padding: 20px;
+        border-radius: 25px;
+    }
+    .card {
+        box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 25%;
+        height: 35em;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+    }
+
+    .card:hover {
+        box-shadow: 0 15px 19px 0 rgba(0,0,0,0.2);
+        
+    }
+
+    .container {
+        padding: 2px 16px;
+    }
+    .glyphicon {
+        margin-left: 1px; margin-right: -1px
+        
+    }
+    .LPadding {
+        width: 12%;
+        height: 35em;
+        display:inline-block;
+        vertical-align:top;
+
+
+
+
+
+
+

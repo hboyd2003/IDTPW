@@ -6,22 +6,36 @@
 -->
 <html>
 	<head>
-		<title>High Street Craft</title>
+		<title>Home - Giovanni's Ice Cream</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <script type="text/javascript">window.onload = function () {
+            document.getElementById('button').onclick = function () {
+                document.getElementById('modal').style.display = "none"
+            };
+        };</script>
+
 	</head>
 	<body class="landing">
+        <div id="modal">
+            <div class="modalconent">
+                <center><h1>DISCLAIMER</h1></center>
+                
+                <center><p>This website was created and intended for a class project, The company and its website are <b>FAKE</b>. Any purchases made will not be fufilled and are considered a donation.  </p></center>
+                <center><button id="button">I have read and <b>agreed</b> to the disclaimer.</button></center>
+            </div>
+        </div>
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="Home.html">High Street Craft</a></h1>
+						<h1><a href="Home.html">Giovanni's Ice Cream</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -43,11 +57,11 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>High Street Craft</h2>
+							<h2>Irredeemably Creamary</h2>
 							<p>Hand crafted luxary ice-cream.<br />
 							<br /></p>
 							<ul class="actions">
-								<li><a href="#" class="button special">Shop Now</a></li>
+								<li><a href="Products.html" class="button special">Shop Now</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
@@ -156,11 +170,12 @@
 							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Giovanni's Ice Cream</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 
 			</div>
+            <div class="banner"></div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
